@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Image](./images/order-screenshot.jpg)
+![Image](./resources/images/order-screenshot.jpg)
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [GitHub pages](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/polinagusakova/Order-summary-component)
+- Live Site URL: [GitHub pages](https://polinagusakova.github.io/Order-summary-component/)
 
 ## My process
 
