@@ -1,0 +1,144 @@
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue:  hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --card-white: hsl(0, 0%, 100%);
+}
+
+/*Main section*/
+body {
+    background-image: url(./images/pattern-background-desktop.svg); /*using svg image as pattern*/
+    background-color: var(--pale-blue);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    font-family: "Red Hat Display", sans-serif;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height: 100svh;
+    gap: 2rem;
+}
+
+/*Main box*/
+.container {
+    max-width: 20rem;
+    background-color: var(--card-white);
+    border-radius: 10px;   
+    
+    box-shadow: 0px 3px 10px 2px hsl(258, 10%, 59%);
+}
+
+.container .info {
+    padding: 1.5rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Adjust elements*/
+h1 {
+    font-size: 1.3rem;
+    color: var(--dark-blue);
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 0.8rem;
+    color: var(--dark-blue);
+}
+
+/*p tag*/
+.description {
+    font-size: 0.9rem;
+    color: var(--desaturated-blue);
+    text-align: center;
+    font-weight: 500;
+}
+
+/*Box for annual plan*/
+.plan {
+    background-color: var(--very-pale-blue);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    gap: 1rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/*Box for annual plan price*/
+.img_plan {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.price {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--desaturated-blue);
+}
+
+.change {
+    justify-self: flex-end;
+    color: var(--bright-blue);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.button {
+    width: 100%;
+    background-color: var(--bright-blue);
+    color: var(--card-white);
+    border: none;
+    border-radius: 8px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    box-shadow: 0px 5px 6px 5px var(--pale-blue);
+}
+
+.cancel {
+    color: var(--desaturated-blue);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.change:hover {
+    cursor: pointer;
+    color: hsl(256, 40%, 54%);
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: hsl(256, 40%, 54%);
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: var(--dark-blue);
+}
+
+
+/*Images*/
+.hero_img {
+    border-radius: 10px 10px 0 0;
+    padding-bottom: 1rem;
+}
+
+.music_icon {
+    width: 30%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
